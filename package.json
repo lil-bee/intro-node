@@ -1,7 +1,7 @@
 {
   "name": "intro-node",
   "bin": {
-     "note": "./index.js"
+    "note": "./index.js"
   },
   "version": "1.0.0",
   "description": "",
@@ -11,5 +11,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^18.0.0"
+  }
 }
