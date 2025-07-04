@@ -1,4 +1,4 @@
-import { getDB, insert, saveDB } from "./db";
+import { getDB, insert, saveDB } from "./db.js";
 
 export const newNote = async (note, tags) => {
   const data = {
